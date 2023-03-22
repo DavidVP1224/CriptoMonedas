@@ -35,7 +35,7 @@ Los flujos de trabajo se extructuran en forma de (DAG) graficos aciclicos dirigi
 esto permite la rapidez en repetir los flujos de trabajo.
 Para instalarlo y utilizarlo en nuestra maquina creamos un documento paso a paso de como hacerlo: [como instalar airflow](https://drive.google.com/file/d/1jL2FLIpyFKjVV5ueRrgey7YMYJmheZIK/view "como instalar airflow")
 
-##Desarrollo de la Api:
+##Desarrollo de la Api
 Al entrar a la Api [documentación](www.coingecko.com/en/api/documentation "documentación") observamos a primera instancia la documentacion para poder saber el procedimiento que debemos
 tener al momento de desarrollar el codigo.
 Debemos tener el cuenta que parte de la documentacion nos sirve para poder darle solucion a la solicitud asignada, en nuestro caso debiamos convertir la
@@ -43,8 +43,11 @@ fecha en Unix ya que era una clave para obtener los datos que necesitabamos.
 Tambien encontramos un limitante la cual habia que esperar cierto tiempo despues de un numero de recarga en los datos, este problema lo logramos solucionar
 con un trafico de errores (time.sleep) que es un contador de espera para volver a consultar.
 
+##Base de datos
+En el repositorio se encuentra una carpeta llamada BD en donde guardamos el precio historico de las monedas desde el 2018 hasta el 16/03/2023
+
 ##Power BI Desktop
-ahora en power bi se creara los graficos aplicandole diferentes filtros para conocer el top 10 de criptomonedas con mayor marketcap, el precio historico, prediccion de los proximos dias y ademas de añadirle un banner de diseño acorde a lo planteado.
+Ahora en power bi se creara los graficos aplicandole diferentes filtros para conocer el top 10 de criptomonedas con mayor marketcap, el precio historico, prediccion de los proximos dias y ademas de añadirle un banner de diseño acorde a lo planteado.
 
 primero se realizara importar la base de datos de la siguiente manera:
 

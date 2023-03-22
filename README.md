@@ -115,6 +115,9 @@ luego de importarlo en primera instancia no aparecera el banner, para esto se te
 para ajustar un poco la imagen y que quede simetrica con la pagina del power bi, nos iremos a ajuste de imagen y seleccionamos ajustar:
 [imagen 20](https://drive.google.com/file/d/1tTFcnut7oMQxgX6czsj26xqCHZcV4nHl/view "imagen 20")
 
+mediante este link se podran ver las graficas realizadas en el power bi:
+[enlace](https://app.powerbi.com/links/r24R0VlwJ-?ctid=650039fd-712a-4fe1-b863-86103c425c17&pbi_source=linkShare "enlace")
+
 ##Limitantes y soluciones:
 - Primer limitante: la API cuenta con un limite de solicitudes en un determinado tiempo.
 - Solucion: tuvimos en cuenta un tiempo de espera antes de realizar la misma consulta cuando esta generaba error.
